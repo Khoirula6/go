@@ -1,10 +1,10 @@
-package main
+package variabel
 
 import (
 	"fmt"
 )
 
-func main() {
+func PrintVariabel() {
 	//deklarasi variabel beserta tipe data
 	var firstName string = "Khoirul"
 
