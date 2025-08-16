@@ -37,4 +37,29 @@ func Seleksi() {
 		fmt.Println("masukkan angka 10-50!!!")
 	}
 
+	//seleksi kondisi bersarang
+	var nilai = 100
+
+	if nilai > 70 {
+		switch nilai {
+		case 100:
+			fmt.Println("sempurna")
+		default:
+			fmt.Println("turah")
+
+		}
+
+	} else {
+		if nilai == 50 {
+			fmt.Println("mepet")
+		} else if nilai == 40 {
+			fmt.Println("ngulang")
+		} else {
+			fmt.Println("kurang")
+			if nilai == 0 {
+				fmt.Println("belajar lagi!!")
+			}
+		}
+	}
+
 }
