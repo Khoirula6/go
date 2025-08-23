@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"hello-world/array"
 	"hello-world/operator"
 	"hello-world/perulangan"
 	"hello-world/seleksi"
@@ -16,4 +17,5 @@ func main() {
 	operator.Operator()
 	seleksi.Seleksi()
 	perulangan.Perulangan()
+	array.Array()
 }
