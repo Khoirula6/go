@@ -6,6 +6,7 @@ import (
 	"hello-world/operator"
 	"hello-world/perulangan"
 	"hello-world/seleksi"
+	"hello-world/slice"
 	tipedata "hello-world/tipe-data"
 	"hello-world/variabel"
 )
@@ -18,4 +19,5 @@ func main() {
 	seleksi.Seleksi()
 	perulangan.Perulangan()
 	array.Array()
+	slice.Slice()
 }
